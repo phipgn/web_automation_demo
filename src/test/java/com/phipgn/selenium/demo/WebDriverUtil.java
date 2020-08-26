@@ -1,13 +1,17 @@
 package com.phipgn.selenium.demo;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class WebDriverUtil {
-	private static WebDriverUtil driver;
+	private WebDriver driver;
 	
-	private WebDriverUtil() {}
+	public WebDriverUtil() {
+		System.setProperty("webdriver.chrome.driver", "C:/workspace/web_automation_demo/drivers/chromedriver.exe");
+		driver = new ChromeDriver();
+	}
 	
-	public WebDriverUtil getDriver() {
-		if (driver == null)
-			driver = new WebDriverUtil();
-		return driver;
+	public WebDriver getDriver() {
+		return this.driver;
 	}
 }
