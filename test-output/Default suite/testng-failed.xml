@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)" preserve-order="false">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="com.phipgn.selenium.demo.DemoTest">
+      <class name="com.phipgn.selenium.tests.DemoTest">
         <methods>
-          <include name="beforeMethod"/>
+          <include name="tearDown"/>
           <include name="test01"/>
+          <include name="init"/>
         </methods>
-      </class>
+      </class> <!-- com.phipgn.selenium.tests.DemoTest -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

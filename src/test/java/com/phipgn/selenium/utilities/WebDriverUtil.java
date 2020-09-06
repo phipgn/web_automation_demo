@@ -1,4 +1,4 @@
-package com.phipgn.selenium.demo;
+package com.phipgn.selenium.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
