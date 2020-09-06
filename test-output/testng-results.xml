@@ -2,24 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6714" started-at="2020-09-06T02:31:23Z" finished-at="2020-09-06T02:31:30Z">
+  <suite name="Default suite" duration-ms="25961" started-at="2020-09-06T06:40:38Z" finished-at="2020-09-06T06:41:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6714" started-at="2020-09-06T02:31:23Z" finished-at="2020-09-06T02:31:30Z">
+    <test name="Default test" duration-ms="25961" started-at="2020-09-06T06:40:38Z" finished-at="2020-09-06T06:41:04Z">
       <class name="com.phipgn.selenium.tests.DemoTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@16e7dcfd]" name="init" is-config="true" duration-ms="6681" started-at="2020-09-06T09:31:23Z" finished-at="2020-09-06T09:31:30Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@11a9e7c8]" name="init" is-config="true" duration-ms="7184" started-at="2020-09-06T13:40:38Z" finished-at="2020-09-06T13:40:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="test01()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@16e7dcfd]" name="test01" duration-ms="11" started-at="2020-09-06T09:31:30Z" finished-at="2020-09-06T09:31:30Z">
+        <test-method status="PASS" signature="test01()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@11a9e7c8]" name="test01" duration-ms="5005" started-at="2020-09-06T13:40:45Z" finished-at="2020-09-06T13:40:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="test02()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@16e7dcfd]" name="test02" duration-ms="14" started-at="2020-09-06T09:31:30Z" finished-at="2020-09-06T09:31:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@11a9e7c8]" name="tearDown" is-config="true" duration-ms="993" started-at="2020-09-06T13:40:50Z" finished-at="2020-09-06T13:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@11a9e7c8]" name="init" is-config="true" duration-ms="6702" started-at="2020-09-06T13:40:51Z" finished-at="2020-09-06T13:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test02()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@11a9e7c8]" name="test02" duration-ms="5009" started-at="2020-09-06T13:40:57Z" finished-at="2020-09-06T13:41:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@16e7dcfd]" name="tearDown" is-config="true" duration-ms="1304" started-at="2020-09-06T09:31:30Z" finished-at="2020-09-06T09:31:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phipgn.selenium.tests.DemoTest@11a9e7c8]" name="tearDown" is-config="true" duration-ms="1048" started-at="2020-09-06T13:41:02Z" finished-at="2020-09-06T13:41:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
