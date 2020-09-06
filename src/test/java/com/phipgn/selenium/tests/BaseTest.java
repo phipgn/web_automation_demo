@@ -24,9 +24,7 @@ public class BaseTest {
 		try {
 			Thread.sleep(time * 1000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-//		Browser.getDriver().manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 	}
 }
