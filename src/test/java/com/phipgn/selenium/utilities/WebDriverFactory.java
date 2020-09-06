@@ -10,9 +10,10 @@ import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import io.github.bonigarcia.wdm.InternetExplorerDriverManager;
 
 public class WebDriverFactory {
-	public static final String CHROME = "chrome";
-	public static final String FIREFOX = "firefox";
-	public static final String INTERNET_EXPLORER = "ie";
+	private static final String CHROME = "chrome";
+	private static final String FIREFOX = "firefox";
+	private static final String INTERNET_EXPLORER = "ie";
+	private static final String BrowserVersion = ConfigLoader.getConfig("browser.version");
 
 	private WebDriverFactory() {
 	}
@@ -22,7 +23,7 @@ public class WebDriverFactory {
 
 		switch (browserName) {
 		case CHROME:
-			ChromeDriverManager.getInstance().setup("85.0.4183.83");
+			ChromeDriverManager.getInstance().setup(BrowserVersion);
 			webDriver = new ChromeDriver();
 			break;
 		case FIREFOX:

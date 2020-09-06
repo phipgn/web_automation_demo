@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 
 public class Browser {
 
-	private static String BaseURL = "https://www.facebook.com/";
-	private static String BrowserName = "chrome";
+	private static String BaseURL = ConfigLoader.getConfig("site.url");
+	private static String BrowserName = ConfigLoader.getConfig("browser.name");
 	private static WebDriver webDriver;
 
 	public static void initialize() {
